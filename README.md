@@ -117,3 +117,10 @@ For general inquiries about this course or add codes, please contact GraduateEdu
 
 - [Carlos Avendano](https://mcb-seattle.edu/student_profiles/avendano-carlos/)
 - [Samantha Sgrizzi](https://mcb-seattle.edu/student_profiles/sgrizzi-samantha/)
+
+## Feedback from TAs for next year
+
+- Teach how to fork a repo and sync to upstream repo
+- Teach how to create and install in conda environments
+- Perhaps do this as part of the software installation lecture 2?
+- Can we move the command line sectons to after introducing Python? This might be easier for folks who are completely new to the command line
