@@ -39,7 +39,7 @@ TA Office Hours and Location:
 | 12      | Nov 4  | Matthew Chan             | [Data analysis using R/tidyverse](lectures/lecture12/)                          |
 | 13      | Nov 6  | Matthew Chan             | [Data analysis using R/tidyverse (continued)](lectures/lecture13/)              |
 | 14      | Nov 13 | Rasi Subramaniam         | [Biological sequences and annotations in Bioconductor](lectures/lecture14/)     |
-| 15      | Nov 18 | Rasi Subramaniam         | [Introduction to sequencing data](lectures/lecture15/)                          |
+| 15      | Nov 18 | Matthew Chan             | [Introduction to sequencing data](lectures/lecture15/)                          |
 | 16      | Nov 20 | Rasi Subramaniam         | [Genomic data in R](lectures/lecture16/)                                        |
 | 17      | Nov 25 | Maggie Russell           | [Immune repertoire sequencing and analysis](lectures/lecture17/)                |
 | 18      | Dec 2  | Dominik Otto (Setty Lab) | [Single-cell RNA-seq analysis](lectures/lecture18/)                             |
