@@ -1,19 +1,17 @@
 # Lecture 17: Immune repertoire sequencing and analysis
 
-We will learn how to work with immune repertoire sequence data. Open lecture17.ipynb in VSCode. Make sure to select the kernel for R so that you can execute R code. You should have already set this up following the software installation instructions from last week.
+In this lecture, we will learn how to work with immune repertoire sequence data, with a focus on antibody mutation analysis.
+Open lecture17.ipynb in VS Code and make sure to select your **Python kernel** for running code.
 
-This lecture will begin with a introduction to immune repertoire sequencing and analysis. We will then undertake a hands-on exercise using R and Bioconductor tools to analyze pre-processed immune repertoire data from two healthy individuals.
+The lecture will begin with a short introduction to immune repertoire sequencing and the biological processes that generate antibody diversity (V(D)J recombination and somatic hypermutation). We will then complete a tutorial to explore mutations in antibody sequences.
 
 ## Learning Objectives 
-- learn about immune repertoire sequencing
-- familiarize with immune repertoire data
-- work through an example analysis
-    - visualize rearrangement statistics
-    - evaluate repertoire overlap between individuals
+- Understand the basics of immune repertoire sequencing
+- Interpret key fields in IMGT/V-QUEST AIRR-formatted outputs
+- Compare observed antibody sequences to their inferred germline sequences
 
 ## Class materials
 - The lecture slides are available [here](lecture17_slides.pdf)
-
 - The Notebook which will be using for this lecture is available at [lecture17.ipynb](lecture17.ipynb)
 
 
