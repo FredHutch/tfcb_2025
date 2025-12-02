@@ -1,6 +1,6 @@
 # Tutorial Setup Guide
 
-Follow these steps to get your Python environment ready for the tutorial.  
+Follow these steps to get your Python environment ready on almost any system.
 This will install the [`uv`](https://docs.astral.sh/uv/) package manager, create a compute environment with
 the required tools, and launch Jupyter Lab.
 
@@ -24,8 +24,10 @@ printf '\nexport PATH="%s:$PATH"\n' "$(dirname $(which uv))" >> "$HOME/.profile"
 Run this instead:
 
 ```powershell
-iwr https://astral.sh/uv/install.ps1 -UseBasicParsing | iex
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
+If you have trouble installing use one of the alternative ways from the [uv doc](https://docs.astral.sh/uv/getting-started/installation/).
 
 After that, you can follow the same steps as macOS/Linux.
 
@@ -38,16 +40,20 @@ Inside the tutorial folder, create a new virtual environment:
 uv venv
 ```
 
+This makes a directory `.venv` in your current working directory with all the environment info.
+
 Then install the packages we’ll use:
 
 ```bash
-uv pip install scanpy uv ipykernel palantir igraph leidenalg rpy2 scikit-image anndata2ri
+uv pip install scanpy uv ipykernel palantir igraph leidenalg scikit-image
 ```
+
+To run things in the environment without "entering" it use `uv run ...` in the same directory.
 
 Register this environment as a Jupyter kernel:
 
 ```bash
-uv run python -m ipykernel install --user --name scanpy --display-name "scanpy env"
+uv run python -m ipykernel install --user --name scanpy_v1 --display-name scanpy_v1
 ```
 
 
