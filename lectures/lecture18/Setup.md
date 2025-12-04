@@ -27,6 +27,16 @@ Run this instead:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+If `uv` is not found after installation, add it to your PATH:
+
+```powershell
+$install = "$home\.local\bin"
+$old = [Environment]::GetEnvironmentVariable('Path', 'User')
+if (-not $old.Split(';') -contains $install) {
+    [Environment]::SetEnvironmentVariable('Path', "$old;$install", 'User')
+}
+```
+
 If you have trouble installing use one of the alternative ways from the [uv doc](https://docs.astral.sh/uv/getting-started/installation/).
 
 After that, you can follow the same steps as macOS/Linux.
